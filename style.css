@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    font-family: 'Exo 2', sans-serif;
+* {
+    font-family: "Exo 2", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,27 +10,29 @@
     outline: none;
     scroll-behavior: smooth;
 }
-:root{
+:root {
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
-
 }
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-body{
+body {
     background-color: var(--bg-color);
     color: var(--text-color);
-
 }
-.header{
+section{
+    min-height: 100vh;
+    padding: 10rem;
+}
+.header {
     position: fixed;
     top: 0;
-    left:0;
-    width:100%;
+    left: 0;
+    width: 100%;
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
@@ -38,23 +40,24 @@ body{
     align-items: center;
     z-index: 100;
 }
-.logo{
-    font-size: 3.0rem;
+.logo {
+    font-size: 3rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 .navbar a {
-    font-weight: 300;
-    font-size: 1.7rem;
-    color: #FFF;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--text-color);
     margin-left: 4rem;
+    transition: 0.2s ease;
 }
-.navbar a.active{
-    color: var(--text-color);   
-    
+.navbar a:hover,
+.navbar a:active {
+    color: var(--main-color);
 }
-#menu-icon{
+#menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
