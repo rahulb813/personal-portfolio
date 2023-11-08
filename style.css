@@ -191,6 +191,10 @@ span {
     margin: 1rem 0 3rem;
     margin-top: 20px;
 }
+.projects-box p{
+    margin-left: 50px;
+    max-width: 350px;
+}
 .projects-container .projects-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
@@ -242,6 +246,7 @@ span {
 .achievements-box:hover img {
     opacity: 0.2;
     transform: scale(1.1);
+    transition: 0.2s ease;
 }
 .achievements-box:hover .achievements-layer {
     transform: translateY(0);
