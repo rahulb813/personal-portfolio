@@ -271,3 +271,10 @@ span {
 .achievements-layer p {
     font-size: 1.7rem;
 }
+.contact-box{
+    margin-top: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
